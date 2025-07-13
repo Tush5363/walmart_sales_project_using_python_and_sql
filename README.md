@@ -1,9 +1,8 @@
 Walmart Sales Analysis Project (Python + PostgreSQL)
 📌 Overview
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data.
-We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. 
+We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions.
 The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
-
 
 🛠️ Tools & Technologies
 Language: Python 3.8+
@@ -12,14 +11,13 @@ Database: PostgreSQL
 
 Libraries: pandas, numpy, sqlalchemy, psycopg2
 
-IDE: VS Code 
+IDE: VS Code
 
 Data Source: Walmart Sales Dataset on Kaggle
 
-Project Steps
-
+📂 Project Steps
 1. Download Dataset
-Go to the Kaggle Dataset Link
+Go to the Kaggle Dataset link
 
 Click "Download"
 
@@ -41,7 +39,7 @@ Format numeric/currency fields
 Create new fields like total_amount for enhanced analysis
 
 3. Load Data into PostgreSQL
-Use sqlalchemy and psycopg2 to connect to PostgreSQL
+Use SQLAlchemy and psycopg2 to connect to PostgreSQL
 
 Create appropriate tables and insert cleaned data
 
@@ -65,11 +63,11 @@ Install dependencies using:
 
 pip install -r requirements.txt
 Contents of requirements.txt:
-pandas
-numpy
-sqlalchemy
-psycopg2
 
+pandas  
+numpy  
+sqlalchemy  
+psycopg2
 📈 Key Insights
 Uncovered sales and revenue trends by year, branch, and category
 
